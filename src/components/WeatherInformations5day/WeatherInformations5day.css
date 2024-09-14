@@ -1,0 +1,76 @@
+.weather5day-container {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px 0;
+    flex-wrap: wrap;
+
+    h3 {
+        font-size: 1rem;
+    }
+}
+
+.weather5day-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    max-width: 100%;
+}
+
+.weather5day-items {
+    text-align: center;
+    background-color: rgba(62, 125, 173, 0.521);
+    color: rgb(48, 46, 46);
+    padding: 10px;
+    margin: 10px;
+    width: 150px;
+    border-radius: 4px;
+    font-size: 1rem;
+}
+
+.weather5day-items img {
+    width: 50px;
+    /* Ajustar o tamanho da imagem */
+    height: 50px;
+}
+
+.description {
+    font-style: italic;
+    font-size: small;
+    margin-bottom: 10px;
+}
+
+
+@media screen and (max-width: 320px) {
+    .weather5day-list {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .weather5day-items {
+        width: 100px;
+        flex-basis: 100px;
+        margin: 5px;
+    }
+}
+
+@media (min-width: 375px) and (max-width: 768px) {
+    .weather5day-list {
+        display: flex;
+        flex-direction: column; 
+        align-items: center; 
+        justify-content: center; 
+        width: 100%;
+        box-sizing: border-box; 
+    }
+
+    .weather5day-items {
+        width: 100px; 
+        flex-basis: 100px;
+        margin: 10px 0;
+    }
+}
+
