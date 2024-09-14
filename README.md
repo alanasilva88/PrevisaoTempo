@@ -1,7 +1,3 @@
-Claro! Aqui está um modelo de README para o seu projeto de previsão do tempo. Você pode personalizar conforme necessário para se adequar ao seu projeto específico.
-
----
-
 # Projeto de Previsão do Tempo
 
 Este é um projeto de previsão do tempo que fornece informações detalhadas sobre as condições meteorológicas para diferentes localidades. O projeto utiliza dados de uma API de previsão do tempo para exibir informações como temperatura, umidade, velocidade do vento e previsões futuras.
